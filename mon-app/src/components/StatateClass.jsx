@@ -7,13 +7,12 @@ import React, { Component } from 'react'
       super(props)
     
       this.state = {
-         counter: 20
+         counter: 0
       }
     }
     addOne = () =>{
        this.setState({
-        counter: this.state.counter - 1
-        
+        counter: this.state.counter + 1
        })
     }
     
